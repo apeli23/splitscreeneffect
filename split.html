@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+    <div class="content">
+        <div class="split a">A</div>
+        <div class="split b">B</div>
+    </div>
+    <script src="https://unpkg.com/split.js/dist/split.min.js"></script>
+    <script>
+      Split(['.a', '.b'], {
+        gutterSize: 5,
+        sizes: [20,80]
+      });
+    </script>
+    </body>
+</html>
