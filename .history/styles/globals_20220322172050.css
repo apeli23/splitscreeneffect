@@ -1,0 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  display: block;
+}
+.content {
+  width: 450px;
+  height: 200px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.split {
+ 
+  border: 1px solid
+}
+
+.a {
+  background-image: url("../public/sample.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.b {
+  background-image: url("../public/sample.avif");
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.gutter {
+  cursor: s-resize;
+  height: 100%;
+  background: grey;x
+}
+.c {
+  background-image: url("../public/sample.avif");
+  background-attachment: fixed;
+  height: 100vh;
+}

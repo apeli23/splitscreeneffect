@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 10;
+  margin: 10;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  /* border: 5px solid red; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 450px;
+  height: 200px;
+  display: flex;
+  justify-items: center;
+  /* border: 5px solid red; */
+  margin: 70px auto;
+}
+
+.split {
+  border: 1px solid #eaeaea;
+}
+
+.a {
+  background-image: url("../public/sample.jpg");
+  background-attachment: fixed;
+  height: 100;
+}
+
+.b {
+  background-image: url("../public/sample.avif");
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.gutter {
+  cursor: s-resize;
+  height: 100%;
+  background: grey;
+}
+
+.c {
+  background-image: url("../public/sample.avif");
+  background-attachment: fixed;
+  height: 100vh;
+}

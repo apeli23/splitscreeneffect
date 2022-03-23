@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.split {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  border: 1px solid
+}
+
+.a {
+  background-image: urlpublic/sample("../.jpg");
+  background-attachment: fixed;
+
+}
+
+.b {
+  background: "sample.pdf";
+  background-attachment: fixed;
+}
+
+.gutter {
+  cursor: e-resize;
+  height: 100%;
+  background: grey;
+}
