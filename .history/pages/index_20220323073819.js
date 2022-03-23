@@ -5,13 +5,15 @@ export default function Home() {
   
 
   useEffect(() => {
-    Split([".a", ".b", ".c"])
+    Split([".cella", ".cellb", ".cellc"], {
+      gutterSize: 5
+    })
   })
   return (
     <div className="content">
         <div className="cell a">A</div>
-        <div className="cell b">B</div>
-        <div className="cell c">C</div>
+        <div className="cellb">B</div>
+        <div className="cellc">C</div>
     </div>
   )
 }

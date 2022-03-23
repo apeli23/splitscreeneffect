@@ -5,7 +5,7 @@ export default function Home() {
   
 
   useEffect(() => {
-    Split([".a", ".b", ".c"])
+    Split([".a", ".b", ".c"] )
   })
   return (
     <div className="content">

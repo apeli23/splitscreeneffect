@@ -5,7 +5,9 @@ export default function Home() {
   
 
   useEffect(() => {
-    Split([".a", ".b", ".c"])
+    Split([".cella", ".cellb", ".cellc"], {
+      gutterSize: 5
+    })
   })
   return (
     <div className="content">

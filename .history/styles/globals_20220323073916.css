@@ -39,7 +39,7 @@ a {
   border: 1px solid;
 }
 
-.guttter{
+guttter{
   height: 100%;
   background-color: red;
   cursor: e-resize;

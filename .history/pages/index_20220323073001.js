@@ -1,12 +1,7 @@
 import Split from "split.js";
-import {useEffect} from 'react';
 
 export default function Home() {
-  
-
-  useEffect(() => {
-    Split([".a", ".b", ".c"])
-  })
+  // Split([".cell a", ".b", ".c"])
   return (
     <div className="content">
         <div className="cell a">A</div>
